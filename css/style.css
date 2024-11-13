@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100dvh;
+  font-family: "Nunito", sans-serif;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  text-transform: uppercase;
+  color: white;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.store-header {
+  display: grid;
+  background-image: linear-gradient(140deg, #1c0f29, #7b29c7, #1c0f29);
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.store-header__equipment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.equipment__img {
+  padding: 1.4rem;
+  width: 15rem;
+}
+
+.equipment__title-equipment {
+  font-weight: 800;
+}
+
+.equipment__title-buys {
+  font-weight: 300;
+}
+
+.store-header__league {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.league__logo {
+  width: 0rem;
+}
+
+.menu__list {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 5rem;
+}
+
+.menu__lupa,
+.menu__usuario,
+.menu__carrito-compra {
+  width: 4rem;
+}
+
+li {
+  list-style: none;
+  margin-left: 3rem;
+}
+
+.store-main__purchase-option {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: white;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.purchase-option__seption {
+  max-height: 14rem;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.purchase-option__title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: black;
+}
+
+.purchase-option__container-aside {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+
+.purchase-option__img {
+  width: 2rem;
+}
+
+.store-main__store {
+  height: 100%;
+  background-image: linear-gradient(150deg, #fdb927, #966b17, #fdb927);
+  padding: 4rem;
+  overflow-y: auto;
+  max-height: calc(100vh - 16.8rem);
+}
+
+.store__title {
+  font-weight: 800;
+  font-size: 4rem;
+  text-align: center;
+  color: white;
+}
+
+.store__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 42rem));
+  gap: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.store__shop {
+  border-radius: 1.2rem;
+  padding: 2rem;
+  box-shadow: 4px 10px 24px -2px rgba(5, 5, 5, 0.27);
+  background-color: white;
+}
+
+.store__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.store__img {
+  width: 80%;
+}
+
+.store-footer {
+  height: 6rem;
+  background-image: linear-gradient(140deg, #1c0f29, #7b29c7, #1c0f29);
+}

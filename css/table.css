@@ -1,0 +1,24 @@
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.equipment__img {
+    width: 20rem;
+}
+
+.store__container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.purchase-option__title {
+    width: 80%;
+    font-size: 1.7rem;
+}
+
+.purchase-option__img {
+  width: 4rem;
+}
